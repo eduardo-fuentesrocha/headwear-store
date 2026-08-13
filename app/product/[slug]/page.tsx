@@ -23,7 +23,7 @@ export default function ProductPage({ params }: Props) {
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
   // --- CONFIGURACIÓN DE WHATSAPP ---
-  const phoneNumber = "+524421397706";
+  const phoneNumber = "+524661097310";
   const message = `Hola, estoy interesado en comprar el producto: ${product.title}`;
   const whatsappUrl = `https://wa.me/${phoneNumber.replace('+', '')}?text=${encodeURIComponent(message)}`;
 
