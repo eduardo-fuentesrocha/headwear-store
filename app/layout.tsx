@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "YOLO",
     images: [
       {
-        url: "/images/gengar-open-graph.png",
+        url: "https://youonlyliveonce.vercel.app/images/gengar-open-graph.png",
         width: 1200,
         height: 630,
         alt: "Gorra Gengar Trucker Premium - You Only Live Once",
